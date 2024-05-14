@@ -14,8 +14,8 @@ public class Main {
                 System.out.println("Матриця 4x4:");
                 printMatrix(matrix);
 
-                int sumEvenRows = 0, sumOddRows = 0;
-                int prodEvenCols = 1, prodOddCols = 1;
+                long sumEvenRows = 0, sumOddRows = 0;
+                long prodEvenCols = 1, prodOddCols = 1;
 
                 for (int i = 0; i < matrix.length; i++) {
                     for (int j = 0; j < matrix[i].length; j++) {
